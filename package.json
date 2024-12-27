@@ -1,0 +1,48 @@
+{
+  "name": "mfe-caelum-dispatch-assignment-balancing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest --run",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "@mdi/js": "latest",
+    "pinia": "^2.3.0",
+    "vue": "latest",
+    "vuetify": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@originjs/vite-plugin-federation": "^1.3.6",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "@vitest/eslint-plugin": "^1.1.20",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "@vue/eslint-config-typescript": "^14.1.4",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^9.14.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "jsdom": "^25.0.1",
+    "prettier": "^3.3.3",
+    "typescript": "~5.6.3",
+    "unplugin-vue-components": "^0.27.2",
+    "vite": "^5.4.10",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vite-plugin-vue-devtools": "^7.6.8",
+    "vitest": "^2.1.8",
+    "vue-tsc": "^2.1.10"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
