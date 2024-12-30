@@ -16,9 +16,9 @@ export default createVuetify({
     },
   },
   theme: {
-    defaultTheme: 'cyberpunkLightTheme',
+    defaultTheme: 'cyberpunkTheme2',
     themes: {
-      light: {
+      light2: {
         colors: {
           primary: '#4BA3C3', // Azul vibrante
           secondary: '#9C6CD8', // Lila oscuro
@@ -81,6 +81,20 @@ export default createVuetify({
           success: '#76FF03', // Verde lima
           warning: '#FFC400', // Amarillo intenso
           info: '#18FFFF', // Azul eléctrico
+        },
+      },
+      cyberpunkTheme2: {
+        dark: true, // Mantiene el estilo oscuro
+        colors: {
+          primary: '#FF007F', // Rosa neón más marcado (color base)
+          secondary: '#00FFFF', // Cian eléctrico brillante
+          background: '#0D0D0D', // Negro profundo para contraste
+          surface: '#1F1B24', // Gris oscuro con un tono moderno
+          error: '#FF1744', // Rojo vibrante para errores
+          success: '#76FF03', // Verde lima neón para éxitos
+          warning: '#FFC400', // Amarillo brillante para advertencias
+          info: '#00B8D4', // Azul eléctrico más intenso
+          accent: '#9400D3', // Púrpura llamativo como color de acento
         },
       },
     },
